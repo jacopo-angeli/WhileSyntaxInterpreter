@@ -8,7 +8,7 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/': (context) => ProgramInterpreterPage(),
+        '/': (context) => const ProgramInterpreterPage(),
       },
     );
   }
